@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body html {
+  height: 95vh;
+  background: url(bg.svg) no-repeat;
+  background-size: cover;
+  background-position: top;
+}

@@ -1,0 +1,128 @@
+.h1-wrapper {
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  80% {
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  80% {
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  80% {
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cards {
+  float: left;
+  width: 65%;
+  height: 50vh;
+}
+.card-right {
+  float: right;
+  width: 33%;
+  height: 50vh;
+}
+.svg-img {
+  float: left;
+  width: 50%;
+  height: 50vh;
+}
+.svg-img2 {
+  float: right;
+  width: 50%;
+  height: 50vh;
+}
+.footer {
+  font-family: "Futura LT", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "banner explore address socialMedia legal";
+  grid-gap: 15px 10px;
+}
+.banner {
+  margin-top: 10px;
+  grid-area: banner;
+}
+.explore__wrapper {
+  margin-top: 10px;
+  grid-area: explore;
+}
+.address__wrapper {
+  margin-top: 10px;
+  grid-area: address;
+  text-align: left;
+  color: #ffffff;
+}
+.socialMedia__wrapper {
+  margin-top: 10px;
+  grid-area: socialMedia;
+  text-align: left;
+  color: #ffffff;
+}
+.legal__wrapper {
+  margin-top: 10px;
+  grid-area: legal;
+  text-align: left;
+  line-height: 1.6;
+}
+#banner-h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Futura LT", sans-serif;
+}
+#explore-h2 {
+  text-align: left;
+  color: #ffffff;
+}
+#explore-ul {
+  color: #ffffff;
+  list-style-type: none;
+  text-align: left;
+  line-height: 1.6;
+}
+#address-h2 {
+  line-height: 1.6;
+}
+#socialMedia-ul {
+  list-style-type: none;
+  line-height: 1.6;
+}
+#socialMedia-a {
+  text-decoration: none;
+  color: #ffffff;
+}

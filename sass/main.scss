@@ -1,0 +1,55 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/animation";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+
+@import "pages/home";
+
+.header__logo {
+  position: absolute;
+  float: left;
+  padding: 20px;
+  margin: 20px;
+}
+#logo {
+  height: 35px;
+}
+.header__navbar {
+  float: right;
+  margin: 10px 10px;
+}
+.header__navbar .ulList-primary .list-items {
+  padding: 10px;
+  display: inline-block;
+}
+.header__navbar .ulList-primary .list-items a {
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.5rem;
+  color: #183354;
+}
+a:hover {
+  background: whitesmoke;
+  border-radius: 100px;
+}
+.content {
+  clear: both;
+}
+
+.content__left-content {
+  float: left;
+  width: 60%;
+  /* padding: 20px 20px 5px 30px; */
+}
+
+.content__right-content {
+  float: right;
+  width: 40%;
+  padding: 10px 5px 5px 0px;
+}
