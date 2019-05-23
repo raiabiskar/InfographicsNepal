@@ -48,7 +48,7 @@
   width: 100%;
   height: 70vh;
   margin: 0 auto;
-  padding: 0px 20px 10px 20px;
+  padding: 0px 20px 20px 20px;
 }
 #sports__section-h1 {
   text-align: center;
@@ -162,4 +162,23 @@
 }
 #clickForAnimation:hover {
   display: block;
+}
+.btn-css {
+  /* display: block; */
+  width: 20%;
+  padding: 10px 10px 5px 10px;
+  /* margin: 10px; */
+  color: #ffffff;
+  background: #183354;
+  font-family: "Futura LT", sans-serif;
+  font-size: 1em;
+  border-radius: 12px;
+  transform: translate(150px);
+}
+.btn-css:hover {
+  color: aliceblue;
+}
+.fas {
+  transform: translateX(130px);
+  color: #183354;
 }
