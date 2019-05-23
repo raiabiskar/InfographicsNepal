@@ -62,9 +62,18 @@
   width: 65%;
   height: 50vh;
 }
+.cards-part1 {
+  width: 80vh;
+  height: 50vh;
+  margin: 0 auto;
+}
 .card-left {
   float: left;
   width: 50%;
+}
+.card-part1-left {
+  width: 70vh;
+  height: 50vh;
 }
 .card-center {
   float: right;
@@ -72,6 +81,11 @@
 }
 #svg-img1 {
   height: 100%;
+  width: 70vh;
+}
+#svg-img2 {
+  height: 100%;
+  width: 80vh;
 }
 
 .card-right {
@@ -113,6 +127,7 @@
   grid-area: legal;
   text-align: left;
   line-height: 1.6;
+  color: #ffffff;
 }
 #banner-h1 {
   color: #ffffff;
@@ -141,4 +156,10 @@
 #socialMedia-a {
   text-decoration: none;
   color: #ffffff;
+}
+#clickForAnimation {
+  display: none;
+}
+#clickForAnimation:hover {
+  display: block;
 }
